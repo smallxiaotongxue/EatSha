@@ -1,12 +1,12 @@
 {
   "pages":[
-    "pages/index/index",
+    "pages/login/login",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "EAT-SHA",
+    "navigationBarTitleText": "EatSha",
     "navigationBarTextStyle":"#fff",
     "enablePullDownRefresh": true,
     "backgroundColor": "#aaa"

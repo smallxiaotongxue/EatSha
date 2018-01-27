@@ -13,7 +13,7 @@
   </view>
   <view class="btn-group fixed-bottom-3" id="buttonContainer">
     <button class='button' wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登 录</button>
-    <button class='button bg-primary' wx:if="{{hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">进入EatSha</button>
+    <button class='button bg-primary' wx:if="{{hasUserInfo && canIUse}}" open-type="getUserInfo">进入EatSha</button>
   </view>
 
   <view class='bottom-link' bindtap="toGameIntroPage">
