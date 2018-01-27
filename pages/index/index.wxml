@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='bg-mask'></view>
+  <image class='bg' src='../../assets/images/bg2.jpg'></image>
+  <view class="userinfo">
+    <block wx:if="{{hasUserInfo && canIUse}}">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">Hi, {{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="big-title">
+    <text class="big-title-text">What can 
+      we serve you 
+      today ?
+    </text>
+  </view>
+  <view class="btn-group fixed-bottom-3">
+    <button class='button'>Find Food</button>
+  </view>
+
+</view>
