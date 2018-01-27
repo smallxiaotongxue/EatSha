@@ -1,8 +1,35 @@
 /**index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100rpx;
+}
+
+.userinfo button {
+  width: 200rpx;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+.bg-mask {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
 }
 
 .userinfo-avatar {
@@ -13,9 +40,29 @@
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #fff;
 }
 
 .usermotto {
-  margin-top: 200px;
+  position: fixed;
+  top: 37%;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.bottom-link {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+  text-decoration: underline;
+}
+
+.fixed-bottom-3 {
+  position: fixed;
+  text-align: center;
+  bottom: 30%;
 }

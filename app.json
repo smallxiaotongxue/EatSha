@@ -5,8 +5,15 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "EAT-SHA",
+    "navigationBarTextStyle":"#fff",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#aaa"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }

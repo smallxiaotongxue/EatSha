@@ -1,13 +1,22 @@
 <!--index.wxml-->
 <view class="container">
+  <view class='bg-mask'></view>
+  <image class='bg' src='../../assets/images/bg.jpg'></image>
   <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
+    <block wx:if="{{hasUserInfo && canIUse}}">
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="btn-group fixed-bottom-3" id="buttonContainer">
+    <button class='button' wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登 录</button>
+    <button class='button bg-primary' wx:if="{{hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">进入EatSha</button>
+  </view>
+
+  <view class='bottom-link' bindtap="toGameIntroPage">
+    <text>关于 我们</text>
   </view>
 </view>
