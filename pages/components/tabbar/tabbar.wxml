@@ -1,0 +1,11 @@
+<!-- tabbar.wxml -->
+<template name="tab_bar">
+  <view class="item_class">
+    <view class="profile_holder" style="display: flex;flex-direction: row;">
+      <image src="/res/imageholder_tangwei.jpg" class="profile"></image>
+      <text class="margin-left-30">王国洋</text>
+      <text class="margin-left-10">男</text>
+      <text class="margin-left-10">18岁</text>
+    </view>
+  </view>
+</template>

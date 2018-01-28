@@ -1,0 +1,41 @@
+/* 按钮公共样式 */
+
+.btn-group {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  width: 690rpx;
+  height: 100rpx;
+  margin: 30rpx 0;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+  color: #fff;
+  background: #f05522;
+}
+
+.button:active {
+  background: #d93e0b;
+}
+
+.button.bg-primary:active {
+  background-color: #134fbf !important;
+}
+
+.btn-fixed-bottom {
+  position: fixed;
+  background: #fff;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30rpx 0;
+}
+
+.btn-fixed-bottom button:only-child {
+  margin-top: 0;
+}

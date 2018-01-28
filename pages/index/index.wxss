@@ -51,9 +51,3 @@
   font-weight: bold;
   align-self:flex-start;
 }
-
-.fixed-bottom-3 {
-  position: fixed;
-  text-align: center;
-  bottom: 30%;
-}

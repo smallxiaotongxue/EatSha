@@ -1,0 +1,40 @@
+/* form */
+
+.input-part {
+  position: relative;
+  display:inline-block;
+}
+
+.input-part .item-head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  z-index: 1;
+}
+
+.input-part .item-foot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  z-index: 1;
+}
+
+.input {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 690rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #fff;
+  border-radius: 8rpx;
+  text-align: left;
+  padding-left: 72rpx;
+}

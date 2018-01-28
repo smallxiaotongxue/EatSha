@@ -63,9 +63,3 @@
   line-height: 30px;
   text-decoration: underline;
 }
-
-.fixed-bottom-3 {
-  position: fixed;
-  text-align: center;
-  bottom: 30%;
-}

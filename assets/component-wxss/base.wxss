@@ -1,0 +1,33 @@
+/* 公共样式 */
+
+.bg-primary { 
+    background-color: #2a64d1 !important;
+    color: #fff;
+}
+
+.c-666 {color: #666;}
+
+.mt-50 {margin-top: 50rpx;}
+.mt-100 {margin-top: 100rpx;}
+.mt-150 {margin-top: 150rpx;}
+.mt-350 { margin-top: 350rpx;}
+
+.padding-both20 {padding: 20rpx;}
+
+.fixed-bottom-3 {
+    position: fixed !important;
+    width: 100% !important;
+    text-align: center;
+    bottom: 30% !important;
+}
+
+.title-tips {
+    padding: 20rpx;
+    background: #f2f2f2;
+    font-size: 32rpx;
+    color: #666;
+}
+
+.img {
+    width: 100%;
+}

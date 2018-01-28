@@ -5,75 +5,10 @@
   overflow: hidden;
 }
 
-/* flex公共样式 */
-.flex-align-center{
-  display: flex;
-  align-items: center;
-}
+@import "assets/component-wxss/base.wxss";
+@import "assets/component-wxss/icon.wxss";
+@import "assets/component-wxss/button.wxss";
+@import "assets/component-wxss/form.wxss";
 
-/* 公共样式 */
 
-.bg-primary {
-  background-color: #2a64d1!important;
-  color: #fff;
-}
 
-.mt-50{margin-top: 50rpx;}
-.mt-150{margin-top: 150rpx;}
-.mt-350{margin-top: 350rpx;}
-.padding-both20{
-  padding: 20rpx;
-}
-.title-tips{
-  padding: 20rpx;
-  background: #f2f2f2;
-  font-size: 32rpx;
-  color: #666;
-}
-.img{
-  width: 100%;
-}
-
-/* 按钮公共样式 */
-.btn-group {
-  position: relative;
-  display: flex;
-  width: 100%;
-}
-.button {
-  display: block;
-  flex: 1;
-  height: 92rpx;
-  margin: 30rpx 60rpx;
-  line-height: 92rpx;
-  font-size: 32rpx;
-  border-radius:10rpx;
-  color: #ffffff;
-  background: #f05522;
-}
-.button:active {
-  background: #d93e0b;
-}
-.button.bg-primary:active{
-  background-color: #134fbf!important;
-}
-
-.btn-fixed-bottom {
-  position: fixed;
-  background: #fff;
-  z-index: 10;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 30rpx 0;
-}
-.btn-fixed-bottom button:only-child{
-  margin-top: 0;
-}
-.ui-input {
-  margin: 20rpx;
-  font-size: 32rpx;
-  line-height: 40rpx;
-  border-bottom: 1px solid;
-  text-align: center;
-} 

@@ -14,8 +14,18 @@
       today ?
     </text>
   </view>
-  <view class="btn-group fixed-bottom-3">
-    <button class='button'>Find Food</button>
+  <view class='fixed-bottom-3'>
+    <view class='input-part'>
+      <view class='item-head'>
+        <view class='iconfont icon-sousuo c-666'></view>
+      </view>
+      <input class='input' placeholder='search something'></input>
+      <view class='item-foot'>
+        <view class='iconfont icon-location c-666'></view>
+      </view>
+    </view>
+    <view class="btn-group mt-50">
+      <button class='button'>SEARCH</button>
+    </view>
   </view>
-
 </view>
