@@ -1,11 +1,8 @@
 /**app.wxss**/
 .container {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* flex公共样式 */
@@ -40,14 +37,17 @@
 /* 按钮公共样式 */
 .btn-group {
   position: relative;
+  display: flex;
+  width: 100%;
 }
 .button {
-  width: 600rpx;
+  display: block;
+  flex: 1;
   height: 92rpx;
+  margin: 30rpx 60rpx;
   line-height: 92rpx;
   font-size: 32rpx;
   border-radius:10rpx;
-  margin-top: 30rpx;
   color: #ffffff;
   background: #f05522;
 }
