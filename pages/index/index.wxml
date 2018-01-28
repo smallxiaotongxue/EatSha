@@ -1,4 +1,6 @@
 <!--index.wxml-->
+<import src="../components/tabbar/tabbar.wxml"/>
+
 <view class="container">
   <view class='bg-mask'></view>
   <image class='bg' src='../../assets/images/bg2.jpg'></image>
@@ -24,8 +26,10 @@
         <view class='iconfont icon-location c-666'></view>
       </view>
     </view>
-    <view class="btn-group mt-50">
+    <view class="btn-group mt-150">
       <button class='button'>SEARCH</button>
     </view>
   </view>
+
+  <template is="tabbar" />
 </view>

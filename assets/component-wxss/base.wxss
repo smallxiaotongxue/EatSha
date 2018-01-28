@@ -18,7 +18,7 @@
     position: fixed !important;
     width: 100% !important;
     text-align: center;
-    bottom: 30% !important;
+    top: 50% !important;
 }
 
 .title-tips {

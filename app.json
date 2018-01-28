@@ -9,7 +9,6 @@
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "EatSha",
     "navigationBarTextStyle":"#fff",
-    "enablePullDownRefresh": true,
     "backgroundColor": "#aaa"
   },
   "networkTimeout": {
