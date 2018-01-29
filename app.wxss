@@ -9,7 +9,6 @@
 @import "assets/component-wxss/icon.wxss";
 @import "assets/component-wxss/button.wxss";
 @import "assets/component-wxss/form.wxss";
-@import "assets/component-wxss/tabbar.wxss";
 
 
 

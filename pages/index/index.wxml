@@ -1,6 +1,4 @@
 <!--index.wxml-->
-<import src="../components/tabbar/tabbar.wxml"/>
-
 <view class="container">
   <view class='bg-mask'></view>
   <image class='bg' src='../../assets/images/bg2.jpg'></image>
@@ -16,7 +14,7 @@
       today ?
     </text>
   </view>
-  <view class='fixed-bottom-3'>
+  <view class='part'>
     <view class='input-part'>
       <view class='item-head'>
         <view class='iconfont icon-sousuo c-666'></view>
@@ -31,5 +29,5 @@
     </view>
   </view>
 
-  <template is="tabbar" />
+  <tabbar id='tabbar'></tabbar>  
 </view>
