@@ -9,9 +9,9 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text>{{motto}}</text>
   </view>
-  <view class="btn-group fixed-bottom-3" id="buttonContainer">
+  <view class="btn-group fixed-bottom-3">
     <button class='button' wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登 录</button>
     <button class='button bg-primary' wx:if="{{hasUserInfo && canIUse}}" open-type="getUserInfo" bindtap="toIndexPage">进入EatSha</button>
   </view>

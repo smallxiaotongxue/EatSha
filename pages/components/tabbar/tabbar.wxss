@@ -1,3 +1,5 @@
+@import "../../../assets/component-wxss/icon.wxss";
+
 .tabbar {
   position: fixed;
   bottom: 0;
@@ -10,6 +12,7 @@
 }
 .tabbar .iconfont {
   font-size: 50rpx;
+  color: #666;
 }
 .tabbar-item {
   display: flex;

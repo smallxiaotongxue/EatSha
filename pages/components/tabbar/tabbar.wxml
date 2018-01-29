@@ -1,20 +1,19 @@
 <!-- tabbar.wxml -->
-<template name="tabbar">
-  <view class="tabbar">
-    <view class="tabbar-item">
-      <view class="iconfont icon-home c-666"></view>
-    </view>
-    <view class="tabbar-item">
-      <view class="iconfont icon-list2 c-666"></view>
-    </view>
-    <view class="tabbar-item">
-      <view class="iconfont icon-aixin c-666"></view>
-    </view>
-    <view class="tabbar-item">
-      <view class="iconfont icon-tixing c-666"></view>
-    </view>
-    <view class="tabbar-item">
-      <view class="iconfont icon-yonghu c-666"></view>
-    </view>
+
+<view class="tabbar">
+  <view class="tabbar-item">
+    <view class="iconfont icon-home"></view>
   </view>
-</template>
+  <view class="tabbar-item">
+    <view class="iconfont icon-list2"></view>
+  </view>
+  <view class="tabbar-item">
+    <view class="iconfont icon-aixin" bindtap="toFindPage"></view>
+  </view>
+  <view class="tabbar-item">
+    <view class="iconfont icon-tixing"></view>
+  </view>
+  <view class="tabbar-item">
+    <view class="iconfont icon-yonghu"></view>
+  </view>
+</view>

@@ -1,0 +1,34 @@
+/* pages/find/find.wxss */
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100rpx;
+}
+
+.userinfo button {
+  width: 200rpx;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #000;
+}
+
+.foodName {
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}

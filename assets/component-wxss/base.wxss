@@ -14,6 +14,12 @@
 
 .padding-both20 {padding: 20rpx;}
 
+.fixed-bottom-2 {
+    position: fixed !important;
+    width: 100% !important;
+    text-align: center;
+    top: 80% !important;
+}
 .fixed-bottom-3 {
     position: fixed !important;
     width: 100% !important;
