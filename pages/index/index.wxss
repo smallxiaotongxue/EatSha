@@ -45,9 +45,15 @@
 }
 
 .big-title {
+  margin-top: 80rpx;
   margin-left: 40rpx;
   color: #fff;
   font-size: 70rpx;
   font-weight: bold;
   align-self:flex-start;
+}
+
+.part {
+  text-align: center;
+  margin-top: 80rpx;
 }

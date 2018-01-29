@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "EatSha"
+  "navigationBarTitleText": "EatSha",
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar"
+  }
 }
