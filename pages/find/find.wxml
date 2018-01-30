@@ -8,11 +8,17 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="foodName fixed-bottom-3">
-    <text>{{foodName}}</text>
+  <view class="foodName mt-50">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150" />
+        </swiper-item>
+      </block>
+    </swiper>
   </view>
-  <view class="btn-group fixed-bottom-2">
+  <view class="btn-group mt-50">
     <button class='button' open-type="getUserInfo">随机选择</button>
   </view>
-  
+
 </view>
