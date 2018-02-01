@@ -9,9 +9,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
     foodName: 'FoodName(应有图片)',
     imgUrls: [
       'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
@@ -19,10 +16,11 @@ Page({
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
     indicatorDots: false,
-    autoplay: true,
+    autoplay: false,
     interval: 3000,
     duration: 1000,
-    circular: true
+    circular: true,
+    nextMargin: '50rpx'
   },
   changeIndicatorDots: function (e) {
     this.setData({
@@ -44,22 +42,11 @@ Page({
       duration: e.detail.value
     })
   },
-  //事件处理函数
-  bindViewTap: function () {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    if (app.globalData.userInfo) {
-      this.setData({
-        userInfo: app.globalData.userInfo,
-        hasUserInfo: true
-      })
-    }
+    
   },
 
   /**
