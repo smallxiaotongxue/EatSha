@@ -63,7 +63,7 @@
 }
 
 .food-card {
-  margin-top: 50rpx;
+  margin-top: 100rpx;
 }
 
 .food-card .card-item {
@@ -79,7 +79,7 @@
   height: 150rpx;
   background: #fff;
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: -75rpx;
   transform: translateY(-50%);
   border-radius: 50%;
@@ -88,8 +88,7 @@
 }
 
 .card-content {
-  margin: 0 30rpx 0 90rpx;
-  padding-top: 30rpx;
+  padding-top: 20rpx;
   font-size: 14px;
   color: #b2b2b2;
 }
@@ -98,6 +97,10 @@
   font-size: 20px;
   font-weight: bold;
   color: #666;
+}
+.card-content .text {
+  text-indent: 2rem;
+  margin: 0 30rpx;
   text-align: left;
 }
 
@@ -111,7 +114,7 @@
   height: 80rpx;
   background: #fff;
   position: absolute;
-  top: 50%;
+  top: 100%;
   right: -40rpx;
   transform: translateY(-50%);
   border-radius: 50%;
@@ -120,17 +123,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s;
+  transition: all .3s;
 }
-
 .card-right:active {
   background: #b2b2b2;
 }
-
 .card-right:active .icon-right {
-  color: #fff;
+  color: #ffffff;
+} 
+.card-right .icon-right {
+  color: #F73B4F;
 }
 
-.card-right .icon-right {
-  color: #f73b4f;
-}

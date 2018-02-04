@@ -35,7 +35,7 @@
       </view>
       <view class='card-content'>
           <view class='title'>{{foodCard.fastFood[0].title}}</view>
-          <view>{{foodCard.fastFood[0].content}}</view>
+          <view class='text'>{{foodCard.fastFood[0].content}}</view>
       </view>
       <view class='card-right'>
         <view class='iconfont icon-right'></view>
@@ -44,7 +44,6 @@
   </view>
   <view class="btn-group mt-50">
     <button class='button'>随机选择</button>
-    <button class='small-button'>随机所有吃的</button>
   </view>
 
 </view>
