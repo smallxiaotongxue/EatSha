@@ -1,28 +1,50 @@
 <!--pages/find/find.wxml-->
 
 <view class="container">
-
-  <view class="foodName mt-50">
-    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" next-margin="nextMargin">
-      <block wx:for="{{imgUrls}}">
+  <view class='bg'></view>
+  <view class='title'>--- 今日推荐 ---</view>
+  <view class="foodName">
+    <swiper indicator-dots="{{foodRecommend.indicatorDots}}" autoplay="{{foodRecommend.autoplay}}" interval="{{foodRecommend.interval}}" duration="{{foodRecommend.duration}}" circular="{{foodRecommend.circular}}" next-margin="foodRecommend.nextMargin">
+      <block wx:for="{{foodRecommend.imgUrls}}" wx:key="id">
         <swiper-item>
-          <image src="{{item}}" class="slide-image" width="355" height="150" />
+          <image src="{{item}}" class="food-recommend-image" mode='widthFix' />
         </swiper-item>
       </block>
     </swiper>
   </view>
 
-  <view class="foodName mt-50">
-    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" next-margin="nextMargin">
-      <block wx:for="{{imgUrls}}">
-        <swiper-item>
-          <image src="{{item}}" class="slide-image" width="355" height="150" />
+  <!-- 食品分类swiper -->
+  <view class="foodName mt-30">
+    <swiper class='food-class' indicator-dots="{{foodClass.indicatorDots}}" autoplay="{{foodClass.autoplay}}" interval="{{foodClass.interval}}" duration="{{foodClass.duration}}" circular="{{foodClass.circular}}" next-margin="foodClass.nextMargin" display-multiple-items='5'>
+      <block wx:for="{{foodClass.imgInfo}}" wx:key="id">
+        <swiper-item class='class-item'>
+          <image src="{{item.listIcon}}" class='food-class-icon' />
+          <view class='food-list-tip'>
+            <view class='zh'>{{item.listName}}</view>
+          </view>
         </swiper-item>
       </block>
     </swiper>
+  </view>
+
+  <!-- 具体card -->
+  <view class="food-card">
+    <view class='card-item'>
+      <view class='card-img'>
+        <image src='{{foodCard.fastFood[0].img}}'></image>
+      </view>
+      <view class='card-content'>
+          <view class='title'>{{foodCard.fastFood[0].title}}</view>
+          <view>{{foodCard.fastFood[0].content}}</view>
+      </view>
+      <view class='card-right'>
+        <view class='iconfont icon-right'></view>
+      </view>
+    </view>
   </view>
   <view class="btn-group mt-50">
-    <button class='button' open-type="getUserInfo">随机选择</button>
+    <button class='button'>随机选择</button>
+    <button class='small-button'>随机所有吃的</button>
   </view>
 
 </view>

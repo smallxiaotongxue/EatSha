@@ -9,18 +9,71 @@ Page({
    * 页面的初始数据
    */
   data: {
-    foodName: 'FoodName(应有图片)',
-    imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
-    ],
-    indicatorDots: false,
-    autoplay: false,
-    interval: 3000,
-    duration: 1000,
-    circular: true,
-    nextMargin: '50rpx'
+    foodRecommend: {
+      imgUrls: [
+        '/assets/images/food-1.png',
+        '/assets/images/food-2.png',
+        '/assets/images/food-3.png'
+      ],
+      indicatorDots: true,
+      autoplay: true,
+      interval: 3000,
+      duration: 1000,
+      circular: true,
+      nextMargin: '0'
+    },
+    foodClass: {
+      imgInfo: [
+        {
+          listName: "快餐便当",
+          listIcon: '/assets/images/icons/food-list/list-1.png'
+        },
+        {
+          listName: "意面披萨",
+          listIcon: '/assets/images/icons/food-list/list-2.png'
+        },
+        {
+          listName: "中式点心",
+          listIcon: '/assets/images/icons/food-list/list-3.png'
+        },
+        {
+          listName: "汉堡薯条",
+          listIcon: '/assets/images/icons/food-list/list-4.png'
+        },
+        {
+          listName: "西式餐厅",
+          listIcon: '/assets/images/icons/food-list/list-5.png'
+        },
+        {
+          listName: "西式餐厅",
+          listIcon: '/assets/images/icons/food-list/list-5.png'
+        },
+        {
+          listName: "西式餐厅",
+          listIcon: '/assets/images/icons/food-list/list-5.png'
+        },
+        {
+          listName: "西式餐厅",
+          listIcon: '/assets/images/icons/food-list/list-5.png'
+        }
+      ],
+      indicatorDots: false,
+      autoplay: false,
+      interval: 3000,
+      duration: 1000,
+      circular: true,
+      nextMargin: '50rpx'
+    },
+    foodCard: {
+      fastFood : [
+        {
+          img:'/assets/images/icons/food-cards/1.jpg',
+          title:'口水鸡',
+          content: '111'
+        }
+      ]
+    }
+
   },
   changeIndicatorDots: function (e) {
     this.setData({

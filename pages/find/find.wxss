@@ -1,8 +1,136 @@
 /* pages/find/find.wxss */
 
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: black;
+  background-image: radial-gradient(white, rgba(255, 255, 255, 0.2) 2px, transparent 40px),
+                      radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+                      radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+                      radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+
 .foodName {
-  font-size: 25px;
   font-weight: bold;
   width: 100%;
   text-align: center;
+}
+
+.food-class {
+  height: 175rpx;
+}
+
+.food-class .class-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150rpx !important;
+  height: 175rpx !important;
+}
+
+.food-class .class-item.current {
+  border-radius: 10rpx;
+  background: #666;
+}
+
+.food-recommend-image {
+  width: 100%;
+}
+
+.food-class-icon {
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 10rpx;
+}
+
+.food-list-tip {
+  color: #fff;
+  font-size: 12px;
+}
+
+.food-card {
+  margin-top: 50rpx;
+}
+
+.food-card .card-item {
+  min-height: 250rpx;
+  margin: 30rpx 100rpx 30rpx 120rpx;
+  border-radius: 30rpx;
+  background: #fff;
+  position: relative;
+}
+
+.card-img {
+  width: 150rpx;
+  height: 150rpx;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: -75rpx;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 10rpx 10rpx 30rpx rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  margin: 0 30rpx 0 90rpx;
+  padding-top: 30rpx;
+  font-size: 14px;
+  color: #b2b2b2;
+}
+
+.card-content .title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666;
+  text-align: left;
+}
+
+.card-img image {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.card-right {
+  width: 80rpx;
+  height: 80rpx;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  right: -40rpx;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 10rpx 10rpx 30rpx rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.card-right:active {
+  background: #b2b2b2;
+}
+
+.card-right:active .icon-right {
+  color: #fff;
+}
+
+.card-right .icon-right {
+  color: #f73b4f;
 }

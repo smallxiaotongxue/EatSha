@@ -39,3 +39,21 @@
 .btn-fixed-bottom button:only-child {
   margin-top: 0;
 }
+
+
+.small-button {
+  display: inline-block;
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  border-radius: 50rpx;
+  color: #fff;
+  background: #7BCECC;
+  text-align: center;
+  transition: all .3s;
+}
+
+.small-button:active {
+  background: #3090A1;
+}
