@@ -19,13 +19,13 @@
       <view class='item-head'>
         <view class='iconfont icon-sousuo c-666'></view>
       </view>
-      <input class='input' placeholder='search something'></input>
+      <input class='input' placeholder='找找看'></input>
       <view class='item-foot'>
         <view class='iconfont icon-location c-666'></view>
       </view>
     </view>
     <view class="btn-group mt-150">
-      <button class='button'>SEARCH</button>
+      <button class='button'>搜  索</button>
     </view>
   </view>
 

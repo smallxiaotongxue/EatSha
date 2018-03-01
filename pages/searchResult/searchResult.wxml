@@ -1,0 +1,21 @@
+<!--pages/searchResult/searchResult.wxml-->
+
+<view class='container'>
+  <view class='search-header'>
+    <view class='input-part'>
+    
+    </view>
+
+    <view class='tab-part'>
+      <view>附近</view>
+      <view>好评</view>
+      <view>新品上市</view>
+    </view>
+
+  </view>
+
+  <view class='search-body'>
+
+  </view>
+
+</view>
