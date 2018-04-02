@@ -1,21 +1,38 @@
 <!--pages/searchResult/searchResult.wxml-->
-
+<view class='bg'></view>
 <view class='container'>
   <view class='search-header'>
     <view class='input-part'>
-    
+      <view class='item-head'>
+        <view class='iconfont icon-sousuo c-666'></view>
+      </view>
+      <input class='input' placeholder='找找看'></input>
+      <view class='item-foot'>
+        <view class='iconfont icon-location c-666'></view>
+      </view>
     </view>
 
     <view class='tab-part'>
-      <view>附近</view>
-      <view>好评</view>
-      <view>新品上市</view>
+      <view class='item'>附近</view>
+      <view class='item'>好评</view>
+      <view class='item'>新品上市</view>
     </view>
 
   </view>
 
   <view class='search-body'>
+    <view class='filter'>
+      <view class='left'>
+        <view class='iconfont icon-filter'></view>
+        <text class='font-size-30'>Filter</text>
+      </view>
+      <view class='right'>
+        <view class='iconfont icon-shape36 font-size-30 c-666'></view>
+        <view class='icon-square'></view>
+      </view>
+    </view>
 
+    <view class='content'></view>
   </view>
 
 </view>

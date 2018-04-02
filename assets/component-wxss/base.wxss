@@ -1,40 +1,63 @@
 /* 公共样式 */
 
-.bg-primary { 
-    background-color: #2a64d1 !important;
-    color: #fff;
+.bg-primary {
+  background-color: #2a64d1 !important;
+  color: #fff;
 }
 
-.c-666 {color: #666;}
+.font-size-30 {
+  font-size: 30rpx!important;
+}
 
-.mt-30 { margin-top: 30rpx; }
-.mt-50 {margin-top: 50rpx;}
-.mt-100 {margin-top: 100rpx;}
-.mt-150 {margin-top: 150rpx;}
-.mt-350 { margin-top: 350rpx;}
+.c-666 {
+  color: #666;
+}
 
-.padding-both20 {padding: 20rpx;}
+.mt-30 {
+  margin-top: 30rpx;
+}
+
+.mt-50 {
+  margin-top: 50rpx;
+}
+
+.mt-100 {
+  margin-top: 100rpx;
+}
+
+.mt-150 {
+  margin-top: 150rpx;
+}
+
+.mt-350 {
+  margin-top: 350rpx;
+}
+
+.padding-both20 {
+  padding: 20rpx;
+}
 
 .fixed-bottom-2 {
-    position: fixed !important;
-    width: 100% !important;
-    text-align: center;
-    top: 80% !important;
+  position: fixed !important;
+  width: 100% !important;
+  text-align: center;
+  top: 80% !important;
 }
+
 .fixed-bottom-3 {
-    position: fixed !important;
-    width: 100% !important;
-    text-align: center;
-    top: 50% !important;
+  position: fixed !important;
+  width: 100% !important;
+  text-align: center;
+  top: 50% !important;
 }
 
 .title-tips {
-    padding: 20rpx;
-    background: #f2f2f2;
-    font-size: 32rpx;
-    color: #666;
+  padding: 20rpx;
+  background: #f2f2f2;
+  font-size: 32rpx;
+  color: #666;
 }
 
 .img {
-    width: 100%;
+  width: 100%;
 }

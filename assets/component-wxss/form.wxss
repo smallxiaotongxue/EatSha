@@ -3,6 +3,7 @@
 .input-part {
   position: relative;
   display:inline-block;
+  font-size: 28rpx;
 }
 
 .input-part .item-head {
