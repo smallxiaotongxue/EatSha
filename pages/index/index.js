@@ -21,5 +21,10 @@ Page({
         hasUserInfo: true
       })
     }
-  } 
+  },
+  toSearchPage: function (){
+    wx.navigateTo({
+      url: '../searchResult/searchResult',
+    })
+  },
 })

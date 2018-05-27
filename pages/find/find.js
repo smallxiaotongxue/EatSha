@@ -43,18 +43,6 @@ Page({
         {
           listName: "西式餐厅",
           listIcon: '/assets/images/icons/food-list/list-5.png'
-        },
-        {
-          listName: "西式餐厅",
-          listIcon: '/assets/images/icons/food-list/list-5.png'
-        },
-        {
-          listName: "西式餐厅",
-          listIcon: '/assets/images/icons/food-list/list-5.png'
-        },
-        {
-          listName: "西式餐厅",
-          listIcon: '/assets/images/icons/food-list/list-5.png'
         }
       ],
       indicatorDots: false,

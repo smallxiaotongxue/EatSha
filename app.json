@@ -1,9 +1,9 @@
 {
   "pages":[
-    "pages/searchResult/searchResult",
     "pages/login/login",
-    "pages/find/find",
     "pages/index/index",
+    "pages/searchResult/searchResult",
+    "pages/find/find",
     "pages/logs/logs"
   ],
   "window":{

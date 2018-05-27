@@ -25,7 +25,7 @@
       </view>
     </view>
     <view class="btn-group mt-150">
-      <button class='button'>搜  索</button>
+      <button class='button' bindtap='toSearchPage'>搜  索</button>
     </view>
   </view>
 

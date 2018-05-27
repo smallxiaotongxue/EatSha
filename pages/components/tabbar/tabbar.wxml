@@ -2,13 +2,13 @@
 
 <view class="tabbar">
   <view class="tabbar-item">
-    <view class="iconfont icon-home"></view>
+    <view class="iconfont icon-home" bindtap="toFindPage"></view>
   </view>
   <view class="tabbar-item">
     <view class="iconfont icon-list2"></view>
   </view>
   <view class="tabbar-item">
-    <view class="iconfont icon-aixin" bindtap="toFindPage"></view>
+    <view class="iconfont icon-aixin"></view>
   </view>
   <view class="tabbar-item">
     <view class="iconfont icon-tixing"></view>
